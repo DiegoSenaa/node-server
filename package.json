@@ -1,7 +1,7 @@
 {
-  "name": "node-server",
+  "name": "projeto-nodejs-rest",
   "version": "1.0.0",
-  "description": "Servidor Node",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -9,22 +9,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DiegoSenaa/node-server.git"
+    "url": "git+https://github.com/juunegreiros/nodejs-api-rest.git"
   },
-  "keywords": [
-    "Node",
-    "server",
-    "example"
-  ],
-  "author": "Diego Sena",
+  "author": "juliana negreiros",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DiegoSenaa/node-server/issues"
+    "url": "https://github.com/juunegreiros/nodejs-api-rest/issues"
   },
-  "homepage": "https://github.com/DiegoSenaa/node-server#readme",
+  "homepage": "https://github.com/juunegreiros/nodejs-api-rest#readme",
   "dependencies": {
     "consign": "^0.1.6",
     "express": "^4.17.1",
-    "nodemon": "^2.0.2"
+    "moment": "^2.24.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
   }
 }
